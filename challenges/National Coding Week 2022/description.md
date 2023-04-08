@@ -13,14 +13,16 @@ int solution(vector<int> &A, vector<int> &B);
 that, given two arrays, A and B, consisting of N integers and describing the links, computes the number of pairs of nodes X and Y, such that 0 ≤ X < Y ≤ N, and X and Y are connected via an odd number of links.
 
 For example, given N = 6 and the following arrays:
+                                                                                                                                                      
 
-  A[0] = 0    B[0] = 3
-  A[1] = 3    B[1] = 1
-  A[2] = 4    B[2] = 3
-  A[3] = 2    B[3] = 3
-  A[4] = 6    B[4] = 3
-  A[5] = 3    B[5] = 5
-
+  A[0] = 0    B[0] = 3  
+  A[1] = 3    B[1] = 1  
+  A[2] = 4    B[2] = 3  
+  A[3] = 2    B[3] = 3  
+  A[4] = 6    B[4] = 3  
+  A[5] = 3    B[5] = 5  
+                                                                                                                                                      
+                                                                                                                                                      
  <img src="e1.png" align="center" />                                                                                                                                                   
 
 the function should return 6, since:
@@ -29,14 +31,14 @@ there are six pairs of nodes connected by direct links, and
 all other pairs of nodes are connected via two links.
 Given N = 5 and the following arrays:
 
-  A[0] = 0    B[0] = 1
-  A[1] = 4    B[1] = 3
-  A[2] = 2    B[2] = 1
-  A[3] = 2    B[3] = 3
-  A[4] = 4    B[4] = 5
+  A[0] = 0    B[0] = 1  
+  A[1] = 4    B[1] = 3  
+  A[2] = 2    B[2] = 1  
+  A[3] = 2    B[3] = 3  
+  A[4] = 4    B[4] = 5  
 
-                                                                                                                                                      <img <img src="e2.png" align="center" />
-
+   <img src="e2.png" align="center" />  
+  
 the function should return 9, since:
 
 there are five pairs of nodes connected by direct links,
@@ -44,13 +46,13 @@ there are three pairs of nodes connected via three links, and
 there is one pair of nodes connected via five links.
 Given N = 7 and the following arrays:
 
-  A[0] = 0    B[0] = 3
-  A[1] = 4    B[1] = 5
-  A[2] = 4    B[2] = 1
-  A[3] = 2    B[3] = 3
-  A[4] = 7    B[4] = 4
-  A[5] = 6    B[5] = 3
-  A[6] = 3    B[6] = 4
+  A[0] = 0    B[0] = 3  
+  A[1] = 4    B[1] = 5  
+  A[2] = 4    B[2] = 1  
+  A[3] = 2    B[3] = 3  
+  A[4] = 7    B[4] = 4  
+  A[5] = 6    B[5] = 3  
+  A[6] = 3    B[6] = 4  
   
  <img src="e3.png" align="center" />
 
