@@ -21,6 +21,7 @@ For example, given N = 6 and the following arrays:
   A[4] = 6    B[4] = 3
   A[5] = 3    B[5] = 5
 
+ <img src="e1.png" align="center" />                                                                                                                                                   
 
 the function should return 6, since:
 
@@ -34,6 +35,7 @@ Given N = 5 and the following arrays:
   A[3] = 2    B[3] = 3
   A[4] = 4    B[4] = 5
 
+                                                                                                                                                      <img <img src="e2.png" align="center" />
 
 the function should return 9, since:
 
@@ -49,8 +51,10 @@ Given N = 7 and the following arrays:
   A[4] = 7    B[4] = 4
   A[5] = 6    B[5] = 3
   A[6] = 3    B[6] = 4
+  
+ <img src="e3.png" align="center" />
 
-
+  
 the function should return 16, since:
 
 there are seven pairs of nodes connected by direct links, and
