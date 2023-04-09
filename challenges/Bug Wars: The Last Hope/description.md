@@ -19,7 +19,8 @@ Then he drives to city number 2 (it costs |10 − 11| = 1 liter of fuel) and ref
 Next he drives to city number 0 (it costs |11 − 8| = 3 liters of fuel) and refuels 4 liters of fuel.
 Finally he drives to city number 3 (it costs |8 − 13| = 5 liters of fuel) and refuels 3 liters of fuel.
 Tom has insufficient fuel to reach city number 4.
-The picture describes the first example test.
+
+<img src="demo.png" align="center">
 
 2. Given A = [0, 10, 0], X = [1, 2, 3], the function should return 3. Tom can start his trip in city number 1. Then he can visit city number 0 followed by city number 2 (or vice versa). It costs 3 liters of fuel in total.
 
