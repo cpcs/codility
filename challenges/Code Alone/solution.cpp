@@ -55,17 +55,11 @@ int run(string &s) {
     list<int> right;
     const int n = s.length();
     int m = 0;
-    // The minimal cost to have 3 consecutive b's in S[i..n - 1]
-    vector<int> dp(n, -1);
     for (int i = n - 1; i >= 0; --i) {
-        if (i + 1 < n) {
-            dp[i] = dp[i + 1];
-        }
         if (s[i] == 'a') {
             ++m;
         } else {
             right.push_front(i);
-            better(dp[i], check(right));
         }
     }
     if (m < 3 || right.size() < 3) {
@@ -73,7 +67,7 @@ int run(string &s) {
     }
     list<int> left, a;
     int r = -1;
-    for (int i = 0, last = 0; i < n; ++i) {
+    for (int i = 0, last = 0, v = -1; i < n; ++i) {
         while (!right.empty() && right.front() <= i) {
             right.pop_front();
         }
@@ -89,11 +83,13 @@ int run(string &s) {
             for (; last <= p1; ++last) {
                 if (s[last] == 'b') {
                     left.push_back(last);
+                    // The minimal cost to have 3 consecutive b's in S[0..p1]
+                    better(v, check(left));
                 }
             }
             const int cost = i - p1 - 2;
-            if (dp[i] >= 0) {
-                better(r, cost + dp[i]);
+            if (v >= 0) {
+                better(r, cost + v);
             }
             better(r, cal(left, right, p1, p2, i));
         }
