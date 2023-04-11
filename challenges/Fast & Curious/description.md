@@ -20,13 +20,15 @@ With the motorway from the 0th city the travel times would be: 0 for the 0th cit
 With the motorway from the 1st city the travel times would be: 4 for the 0th city, 0 for the 1st city and 3 for the 2nd city: that is 7 in total.
 With the motorway from the 2nd city the travel times would be: 8 for the 0th city, 4 for the 1st city and 0 for the 2nd city: that is 12 in total.
   
-<img src="e1.png" align="center">
+ 
+<img src="e1.png" align="center"/>
 
 2. If A = [5, 15], the function should return 0.
 
 We can only build a motorway from the 0th city to the 1st. Travel time from the city to the motorway is 0, so 0 is the answer.
 
-<img src="e2.png" align="center">
+ 
+<img src="e2.png" align="center"/>
 
 3. If A = [2, 6, 7, 8, 12], the function should return 9.
 
