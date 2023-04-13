@@ -25,7 +25,7 @@ For example, the following array
   T[5] = 0
 encodes a country of N = 6 villages depicted in the figure below:
 
-Drawing of the example layout
+<img src="demo.png" align="center" />
 
 For this array the function should return 12, since there are twelve possible vacations: (0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (1, 1), (2, 2), (2, 3), (3, 3), (4, 4), (5, 5).
 
