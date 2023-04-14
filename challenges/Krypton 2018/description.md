@@ -12,19 +12,19 @@ Examples:
 
 1. Given matrix A below:
 
-The picture describes the first example test.
+<img src="e1.png" align="center" />
 
 the function should return 1. The optimal path is: (0,0) → (0,1) → (0,2) → (1,2) → (2,2) → (2,3) → (3,3). The product of numbers 2, 10, 1, 4, 2, 1, 1 is 160, which has one trailing zero. There is no path that yields a product with no trailing zeros.
 
 2. Given matrix A below:
 
-The picture describes the second example test.
+<img src="e2.png" align="center" />
 
 the function should return 2. One of the optimal paths is: (0,0) → (1,0) → (1,1) → (1,2) → (2,2) → (3,2) → (3,3). The product of numbers 10, 1, 1, 1, 10, 1, 1 is 100, which has two trailing zeros. There is no path that yields a product with fewer than two trailing zeros.
 
 3. Given matrix A below:
 
-The picture describes the third example test.
+<img src="e3.png" align="center" />
 
 the function should return 1. One of the optimal paths is: (0,0) → (0,1) → (1,1) → (1,2) → (2,2). The product of numbers 10, 10, 0, 10, 10 is 0, which has one trailing zero. There is no path that yields a product with no trailing zeros.
 
