@@ -15,7 +15,7 @@ For example, given N = 5, M = 5, X = [0, 4, 2, 0] and Y = [0, 0, 1, 4], the func
 Divide horizontally in two ways or vertically in one way
   
   
-<img src="demo.png align="center" />
+<img src="demo.png" align="center" />
                                  
 Write an efficient algorithm for the following assumptions:
 
