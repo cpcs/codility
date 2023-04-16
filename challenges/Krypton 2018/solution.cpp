@@ -28,12 +28,11 @@ int solution(vector< vector<int> > &A) {
                 dp[j] = v;
                 continue;
             }
-            int dp2 = dp[j][0], dp5 = dp[j][1];
             if (j) {
-                dp2 = min(dp2, dp[j - 1][0]);
-                dp5 = min(dp5, dp[j - 1][1]);
+                dp[j][0] = min(dp[j][0], dp[j - 1][0]);
+                dp[j][1] = min(dp[j][1], dp[j - 1][1]);
             }
-            dp[j] = {dp2 + v[0], dp5 + v[1]};
+            dp[j] = {dp[j][0] + v[0], dp[j][1] + v[1]};
         }
     }
     const int r = min(dp[n - 1][0], dp[n - 1][1]);
