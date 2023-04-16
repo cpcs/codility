@@ -6,7 +6,7 @@ def solution(A):
     n = len(A)
     # minimum number of 2 and 5.
     dp = [[float('inf')] * 2 for i in range(n)]
-    z = False;
+    z = False
     for i in range(n):
         for j in range(n):
             v = [0] * 2
