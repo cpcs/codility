@@ -13,10 +13,8 @@ int solution(vector<int> &A) {
     vector<int> last(100005);
     for (int i = 1; i <= n; ++i) {
         const int x = A[i - 1];
-        for (int j = 1; j <= 3; ++j) {
+        for (int j = 3; j; --j) {
             dp[i][j] += sum[j - 1];
-        }
-        for (int j = 1; j <= 3; ++j) {
             sum[j] += dp[i][j];
             if (last[x]) {
                 sum[j] -= dp[last[x]][j];
