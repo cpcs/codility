@@ -12,27 +12,29 @@ that, given two arrays A, B of length N, containing integers, returns the minimu
 
 For example, given:
 
-A[0] = 5        B[0] = 1
-A[1] = 3        B[1] = 6
-A[2] = 7        B[2] = 6
-A[3] = 7        B[3] = 9
-A[4] = 10       B[4] = 9
+A[0] = 5        B[0] = 1   
+A[1] = 3        B[1] = 6   
+A[2] = 7        B[2] = 6   
+A[1] = 3        B[1] = 6   
+A[3] = 7        B[3] = 9   
+A[4] = 10       B[4] = 9   
+  
 your function should return 2, as explained above.
 
 Given:
 
-A[0] = 5        B[0] = 2
-A[1] = -3       B[1] = 6
-A[2] = 6        B[2] = -5
-A[3] = 4        B[3] = 1
-A[4] = 8        B[4] = 0
+A[0] = 5        B[0] = 2   
+A[1] = -3       B[1] = 6      
+A[2] = 6        B[2] = -5   
+A[3] = 4        B[3] = 1   
+A[4] = 8        B[4] = 0   
 your function should return −1, since you cannot perform operations that would make the sequences become increasing.
 
 Given:
 
-A[0] = 1        B[0] = -2
-A[1] = 5        B[1] = 0
-A[2] = 6        B[2] = 2
+A[0] = 1        B[0] = -2   
+A[1] = 5        B[1] = 0   
+A[2] = 6        B[2] = 2   
 your function should return 0, since the sequences are already increasing.
 
 Write an efficient algorithm for the following assumptions:
