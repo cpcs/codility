@@ -5,7 +5,6 @@
 // cout << "this is a debug message" << endl;
 
 /*
-
 Naive algorithm should be:
 
 def solution(H):
@@ -48,9 +47,7 @@ def solution(H):
             dp_left[i] %= MOD
 
     return total % MOD
-
-  
-    */
+*/
 
 #include <bits/stdc++.h>
 
@@ -154,7 +151,7 @@ vector<node> tree;
                     sum(tree[i].rightStart, 1);
 
             }
-            if (x < y) {
+            if (left < right) {
                 //leftStart += rightStart
                 // When Update R: LR += 1 + LL; RR += RL
                 // When Update L: RL += 1 + RR; LL += LR
@@ -217,14 +214,6 @@ vector<node> tree;
         return r;
     }
 };
-
- 
-// H = [ 13, 2, 5 ]
-// output = 7.
-
-// H = [ 4, 6, 2, 1, 5 ]
-// output = 23
-    
 
 int solution(vector<int> &H) {
     // Implement your solution here
