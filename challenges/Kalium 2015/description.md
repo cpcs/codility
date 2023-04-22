@@ -12,8 +12,8 @@ Consider the parts of a line covered by the segments. Write an SQL query that re
 
 For example, given:
 
-  l | r
-  --+--
-  1 | 5
-  2 | 3
-  4 | 6
+  l | r  
+  --+--  
+  1 | 5  
+  2 | 3 
+  4 | 6 
