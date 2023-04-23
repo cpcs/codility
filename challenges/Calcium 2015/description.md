@@ -25,6 +25,7 @@ For example, given K = 2 and the following arrays:
   A[7] = 6    B[7] = 3  
   A[8] = 1    B[8] = 9  
 
+  <img src="demp.png" align="center" />
 
 the function should return 2. Two speed cameras can be installed on the roads between intersections 1 and 0 and between intersections 0 and 7. (Another solution would be to install speed cameras between intersections 0 and 7 and between intersections 0 and 6.) By installing speed cameras according the first plan, one of the longest paths without a speed camera starts at intersection 8, passes through intersection 6 and ends at intersection 3, which consists of two roads. (Other longest paths are composed of intersections 5, 1, 9 and 7, 2, 4).
 
