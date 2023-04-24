@@ -15,7 +15,7 @@ The network of cities is described using arrays C and D, each of length N. Array
 
 For example, consider the following network consisting of seven cities (each circle represents a city: the city label appears inside the circle and its attractiveness level outside the circle):
 
-<img src="demo.png> align="center" />
+<img src="demo.png" align="center" />
 
 If K = 2, we can select a maximum number of two cities: either 2 and 0 or 2 and 4. In both cases, the attractiveness levels of the selected cities are greater than or equal to 6 and the attractiveness levels of the excluded cities are less than or equal to 6.
 
