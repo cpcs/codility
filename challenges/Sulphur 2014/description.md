@@ -17,6 +17,8 @@ that, given three arrays A, B, C of N integers, returns the maximum number of ro
 
 For example, given the following arrays:
 
+    <img src = "demo1.png" align = "center" />
+    
     A[0] = 5    B[0] = 2    C[0] = -1
     A[1] = 3    B[1] = 3    C[1] = 0
     A[2] = 6    B[2] = 1    C[2] = -1
@@ -32,7 +34,7 @@ Given the following arrays:
     A[1] = 3    B[1] = 2    C[1] = 0
     A[2] = 1    B[2] = 1    C[2] = 1
 
-  <img soruce = "demo.png" align = "center" />
+  <img src = "demo2.png" align = "center" />
 
 the function should return 2, as if we attach a third rope then one rope will break, because the sum of weights is greater than its durability (2 + 2 + 1 = 5 and 5 > 4).
 
