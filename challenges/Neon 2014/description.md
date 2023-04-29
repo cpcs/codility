@@ -53,7 +53,7 @@ the function should return 3, as explained above.
 
 Write an efficient algorithm for the following assumptions:
 
-N is an integer within the range [1..100,000];
-X and M are integers within the range [1..1,000,000,000];
-each element of array R is an integer within the range [0..M];
-array R is sorted in non-decreasing order.
+N is an integer within the range [1..100,000];  
+X and M are integers within the range [1..1,000,000,000];  
+each element of array R is an integer within the range [0..M];   
+array R is sorted in non-decreasing order.  
