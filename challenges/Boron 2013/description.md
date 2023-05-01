@@ -20,6 +20,8 @@ has exactly four peaks: elements 1, 3, 5 and 10.
 
 You are going on a trip to a range of mountains whose relative heights are represented by array A, as shown in a figure below. You have to choose how many flags you should take with you. The goal is to set the maximum number of flags on the peaks, according to certain rules.
 
+<img src="demo.png" align="center" />
+
 
 
 Flags can only be set on peaks. What's more, if you take K flags, then the distance between any two flags should be greater than or equal to K. The distance between indices P and Q is the absolute value |P − Q|.
