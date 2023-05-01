@@ -20,7 +20,8 @@ Write a function
 
 int solution(string &S);
 
-that, given a string S consisting of N characters, returns the maximal product of any prefix of the given string. If the product is greater than 1,000,000,000 the function should return 1,000,000,000.
+that, given a string S consisting of N characters, returns the maximal product of any prefix of the given string. 
+If the product is greater than 1,000,000,000 the function should return 1,000,000,000.
 
 For example, for a string:
 
@@ -29,4 +30,5 @@ S = "aaa" the function should return 4, as the product of the prefix "aa" is max
 Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..300,000];
+
 string S is made only of lowercase letters (a−z).
