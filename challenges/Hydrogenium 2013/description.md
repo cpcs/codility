@@ -22,6 +22,8 @@ For example, given:
   A[3] = 1    B[3] = 3    C[3] = 5    D[3] = 8
   A[4] = 2    B[4] = 0    C[4] = 7
   A[5] = 2    B[5] = 1    C[5] = 5
+  
+  <img src="demo.png" align="center" />
 
 
 the function should return 7. To reach the closest open shop you should follow the path: 0 −> 1 −> 3.
