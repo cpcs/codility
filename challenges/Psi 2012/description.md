@@ -1,6 +1,6 @@
 There is an N × N square mesh-shaped grid of wires, as shown in a figure below. Nodes of the grid are at points (X, Y), where X and Y are integers from 0 to N−1. An electric current flows through the grid, between the nodes at (0, 0) and (N−1, N−1).
 
-<img src="demo1.png> align="center" />
+<img src="demo1.png" align="center" />
 
 Initially, all the wires conduct the current, but the wires burn out at a rate of one per second. The burnouts are described by three arrays of integers, A, B and C, each of size M. For each moment T (0 ≤ T < M), in the T-th second the wire between nodes (A[T], B[T]) and:
 
@@ -28,7 +28,7 @@ For example, given N = 4, M = 9 and the following arrays:
   A[8] = 0    B [8] = 0    C[8] = 1  
 your function should return 8, because just after the eighth wire burns out, there is no connection between the nodes at (0, 0) and (N−1, N−1). This situation is shown in the following figure:
 
-<img src="demo2.png> align="center" />
+<img src="demo2.png" align="center" />
 
 Given N = 4, M = 1 and the following arrays:
 
