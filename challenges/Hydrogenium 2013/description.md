@@ -16,12 +16,12 @@ that, given arrays A, B, C and D, returns the minimum time (in seconds) needed t
 
 For example, given:
 
-  A[0] = 0    B[0] = 1    C[0] = 2    D[0] = -1
-  A[1] = 1    B[1] = 2    C[1] = 3    D[1] = 1
-  A[2] = 3    B[2] = 2    C[2] = 4    D[2] = 3
-  A[3] = 1    B[3] = 3    C[3] = 5    D[3] = 8
-  A[4] = 2    B[4] = 0    C[4] = 7
-  A[5] = 2    B[5] = 1    C[5] = 5
+  A[0] = 0    B[0] = 1    C[0] = 2    D[0] = -1   
+  A[1] = 1    B[1] = 2    C[1] = 3    D[1] = 1  
+  A[2] = 3    B[2] = 2    C[2] = 4    D[2] = 3  
+  A[3] = 1    B[3] = 3    C[3] = 5    D[3] = 8  
+  A[4] = 2    B[4] = 0    C[4] = 7 
+  A[5] = 2    B[5] = 1    C[5] = 5 
   
   <img src="demo.png" align="center" />
 
